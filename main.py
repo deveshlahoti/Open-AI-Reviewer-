@@ -10,7 +10,7 @@ openai.api_key = "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"
 HEADERS = ({'User-Agent':
             'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
             'Accept-Language': 'en-US, en;q=0.5'})
-URL = "https://www.amazon.com/Apple-Watch-Smart-Silver-Aluminum/dp/B0BDHTRVPP/ref=sr_1_3?crid=2DZ8OP5V4U7HC&keywords=apple+watch&qid=1673644935&sprefix=dildo%2Caps%2C3562&sr=8-3"
+URL = ""
 
 webpage = requests.get(URL, headers=HEADERS)
 soup = BeautifulSoup(webpage.content, "lxml")
