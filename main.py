@@ -16,7 +16,6 @@ webpage = requests.get(URL, headers=HEADERS)
 soup = BeautifulSoup(webpage.content, "lxml")
 title = soup.find("span", attrs={"id":'productTitle'})
 title = title.string
-title = "NBA 2k23"
 
 print(title)
 
